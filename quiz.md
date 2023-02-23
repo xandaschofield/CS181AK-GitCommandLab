@@ -9,12 +9,17 @@ long as you list those resources (e.g. peers, websites, etc.)
 1. What is the SHA for the last commit made by Prof. Xanda on this repo?
 (For this and future questions, the first 5 characters is plenty - neither
 Git nor I need the whole SHA.)
+a351d
 
 2. What is the SHA for the last commit associated with line 9 of this file?
+d1d83
 
 3. What did line 12 of this file say in commit d1d83?
+"2. I should really finish writing this."
 
-4. What changed between commit e474c and 82025?
+4. What changed between commit e474c and 82045?
+Two lines in the file process_movie_data: one to cast x["Gross"] as an int,
+and one to change top_five to end at -6, not -5.
 
 ## Predicting merges
 
