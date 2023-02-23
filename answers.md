@@ -31,16 +31,18 @@ and your branch generalizing to any number of movies was called `top_N`.
 git checkout dev
 git merge top_N
 ```
+It should fast-forward the merge!
 
 6. What do you think would happen if you ran the following commands?
 ```
 git checkout top_ten
 git merge dev
 ```
-
+Bluh bluh bluh
 7. What do you think would happen if you ran the following commands?
 ```
 git checkout dev
 git rebase top_ten
 git rebase top_N
 ```
+Booooo
